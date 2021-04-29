@@ -1,0 +1,69 @@
+#root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.wraper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn_section{
+    display: flex;
+}
+
+button{
+    width: 75px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 10px;
+    color: #ffffff;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+button:hover{
+    transform: scale(1.05);
+}
+
+.btn_start{
+    display: inline-block;
+    background-color: green;
+}
+
+.btn_continue{
+    display: inline-block;
+    background-color: #523db3;
+}
+
+.btn_stop{
+    background-color: red;
+}
+
+.btn_reset{
+    background-color: rgb(235, 145, 28);
+}
+
+.time_list{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    flex-wrap: wrap;
+    width: 100%;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2)
+}
+
+.time_list button{
+    width: 120px;
+    height: 30px;
+    color: black;
+}
